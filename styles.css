@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.shopping-list {
+    list-style-type: none;
+    padding: 0;
+}
+.shopping-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+.purchased {
+    text-decoration: line-through;
+    background-color: #d3f8d3;
+}
+input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    margin-right: 10px;
+}
+button {
+    padding: 10px;
+    background-color: #001A6E;
+    border-radius: 15px;
+    color: white;
+    
+
+
+}
